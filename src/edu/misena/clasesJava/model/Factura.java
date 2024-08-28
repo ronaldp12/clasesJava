@@ -1,5 +1,6 @@
 package edu.misena.clasesJava.model;
 import java.util.Date;
+import edu.misena.clasesJava.model.ItemFactura;
 
 public class Factura {
     private int folio;
@@ -36,6 +37,7 @@ public class Factura {
         this.cliente=cliente;
         this.fecha=new Date();
         this.descripcion=descripcion;
+        ItemFactura[][] ItemFactura = new ItemFactura[0][];
         this.items=ItemFactura[MAX_ITEMS];
     }
 

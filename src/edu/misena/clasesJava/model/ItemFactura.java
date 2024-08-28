@@ -1,6 +1,6 @@
 package edu.misena.clasesJava.model;
 
-public class ItemFactura
+public class ItemFactura{
     private Producto producto;
     private int cantidad;
 
