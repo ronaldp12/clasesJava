@@ -32,6 +32,6 @@ public class Main {
             System.out.println();
             s.nextLine();
         }
-        System.out.println(factura.generarDetalle());
+        System.out.println(factura);
     }
 }

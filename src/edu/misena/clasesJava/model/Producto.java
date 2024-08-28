@@ -15,7 +15,7 @@ public class Producto {
      */
 
     public Producto() {
-        this.codigo = "P" + (++ultimoCodigo); // Genera un código único
+        this.codigo = "Pto" + (++ultimoCodigo); // Genera un código único
         this.nombre = nombre;
         this.precio = precio;
     }

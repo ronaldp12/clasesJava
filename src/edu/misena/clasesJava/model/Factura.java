@@ -17,7 +17,7 @@ public class Factura {
     /**
      * Define una constante de Número máximo de ítems que una factura puede contener llamarla MAX_ITEMS y asignarle un valor inicial.
      */
-    private static int MAX_ITEMS=2;
+    private static int MAX_ITEMS=5;
 
     /**
      * Crear una variable estatica para El último folio asignado a una factura.
