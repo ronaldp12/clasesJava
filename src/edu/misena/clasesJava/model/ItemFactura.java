@@ -25,6 +25,20 @@ public int getCantidad() {
 public void setCantidad(int cantidad) {
     this.cantidad = cantidad;
 }
+
+    // metodo para calcular el importe de un producto.
+    public float calcularImporte(){
+        return (float) (cantidad * producto.getPrecio());
+        // operacion es catidad * precio que tiene el objeto producto
+    }
+
+    // metodo para mostrar informacion del item registrado.
+    @Override
+    public String toString() {
+        return producto +
+                "\t" + cantidad +
+                "\t" + calcularImporte();
+    }
 }
 
 

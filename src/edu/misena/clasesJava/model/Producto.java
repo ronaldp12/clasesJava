@@ -14,7 +14,7 @@ public class Producto {
      * TAREA: Crea un constructor que asigna automáticamente un código único al producto incrementando {@code ultimoCodigo}.
      */
 
-    public Producto(String nombre, double precio) {
+    public Producto() {
         this.codigo = "P" + (++ultimoCodigo); // Genera un código único
         this.nombre = nombre;
         this.precio = precio;

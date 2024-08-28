@@ -27,11 +27,11 @@ public class Main {
             producto.setPrecio(s.nextFloat());
 
             System.out.print("Ingrese la cantidad: ");
-            factura.addItemFactura(new ItemFactura(s.nextInt(), producto));
+            factura.addItemFactura(new ItemFactura(producto, s.nextInt()));
 
             System.out.println();
             s.nextLine();
         }
-        System.out.println(factura);
+        System.out.println(factura.generarDetalle());
     }
 }
